@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    font-family:'Courier New', Courier, monospace;
+    white-space: nowrap;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+.TopPageHeader, .Banner, .MiddlePage {
+    display: flex;
+}
+
+a:visited {
+    color: #cfb28d;
+}
+
+a:hover {
+    color: #cfb28d;
+}
+
+a:active {
+    color: #cfb28d;
+}
+a:link {
+    color: #cfb28d;
+}
+.TopPageHeader {
+    background-color: #2f2722;
+    color: #cfb28d;
+    font-size: 36px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.TopPageHeader img {
+    width: auto;
+    height: 30px;
+    margin: 5px
+}
+
+.Banner img {
+    width: 500px;
+    height: auto;
+}
+
+.Banner {
+    justify-content: center;
+    align-items: center;
+    background-color: #cfb28d;
+    padding: 25px;
+}
+
+.MiddlePage {
+    background-color: #2f2722;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.MiddlePage img {
+    width: 450px;
+    height: auto;
+    margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
